@@ -5,7 +5,7 @@ This example shows a simple implementation of [MNIST Addition](https://arxiv.org
 
 ## About the Codes
 
-1. `kb` contains the knowledge base code for ABL as well as the logic programming code for addition rules (`add.pl` for classical logic based knowledge base, `para_refine.pl` for the paraconsistent logic QMPT0 based knowledge base.)
+1. `kb` contains the knowledge base code for ABL as well as the logic programming code for addition rules (`add.pl` for classical logic based knowledge base, `para_refine.pl` for the paraconsistent logic QMPT0 based knowledge base).
 2. `training_logs` contrains training logs for both versions of ABL on the task.
    
 ## Run
