@@ -35,8 +35,6 @@ Details on the specifications are listed in the table below.
 </tbody>
 </table>
 
-## Reference
-
 ## References
 For more information about ABL, please refer to: [Zhou, 2019](http://scis.scichina.com/en/2019/076101.pdf) and [Zhou and Huang, 2022](https://www.lamda.nju.edu.cn/publication/chap_ABL.pdf).
 
