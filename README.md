@@ -6,7 +6,7 @@ This example shows a simple implementation of [MNIST Addition](https://arxiv.org
 ## About the Codes
 
 1. `kb` contains the knowledge base code for ABL as well as the logic programming code for addition rules (`add.pl` for classical logic based knowledge base, `para_refine.pl` for the paraconsistent logic QMPT0 based knowledge base).
-2. `training_logs` contrains training logs for both versions of ABL on the task.
+2. `training_logs` contrains training logs and the weights for both versions of ABL on the task.
    
 ## Run
 Install [SWI-Prolog](https://www.swi-prolog.org/Download.html), please make sure the version of SWI-Prolog is below 9.2 as `pyswip` does not support version 9.2+, `swipl` should work in your command line shell.
