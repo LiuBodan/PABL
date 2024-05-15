@@ -202,8 +202,8 @@ solver_setup:-
     qmpt0_add_fact(add(9, 8, 17)),
     qmpt0_add_fact(add(9, 9, 18)),
     /* artificial contradiction */
-    qmpt0_add_fact(a).
-    qmpt0_add_fact(-a).
+    qmpt0_add_fact(a),
+    qmpt0_add_fact(-a),
     /*Logic forward rule*/
     qmpt0_add_rule(logic_forward([Z1, Z2], Res) <=
                 [add(Z1, Z2, Res)]).
