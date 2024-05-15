@@ -57,32 +57,37 @@ qmpt0_solve(X):-
     retractall(qmpt0_hyp(_,_)),
     assertz(qmpt0_hyp(X,[X])),
     solve_process(X,[X]).
-
+    
 /* main algorithm of solver */
-solve_process(Goal,Subgoalseq) :-
-    select(X,Subgoalseq,RestSubgoalseq),
-    clause(qmpt0_rule(X,Alist),_),
-    append(Alist,RestSubgoalseq,Complexlist),
-    list_to_set(Complexlist,NewSubgoalseq),
-    \+clause(qmpt0_hyp(Goal,Subgoalseq),_),
-    (add_qmpt0_hyp(Goal,NewSubgoalseq) -> true ;
-	solve_process(Goal,NewSubgoalseq)).
+solve_process(Goal, Subgoalseq) :-
+    select(X, Subgoalseq, RestSubgoalseq),
+    clause(qmpt0_rule(X, Alist), _),
+    append(Alist, RestSubgoalseq, Complexlist),
+    list_to_set(Complexlist, NewSubgoalseq),  % Convert list to set to remove duplicates
+    \+ clause(qmpt0_hyp(Goal, NewSubgoalseq), _),  % Check if this state has been processed
+    (add_qmpt0_hyp(Goal, NewSubgoalseq) -> true ; 
+    solve_process(Goal, NewSubgoalseq)).
+
+
 
 /* sub algorithm for solver; add some clauses as hypotheses to be solved */
-add_qmpt0_hyp(_,[]) :- !,true.
+/*Add a new hypothesis if it does not already exist*/
+add_qmpt0_hyp(_, []) :- !, true.
 
-add_qmpt0_hyp(Goal,Subgoalseq) :-
-    assertz(qmpt0_hyp(Goal,Subgoalseq)),
-    fail.
+add_qmpt0_hyp(Goal, Subgoalseq) :-
+    list_to_set(Subgoalseq, UniqueSubgoalseq),  % Ensure uniqueness within the subgoal sequence
+     % Check for existence
+    assertz(qmpt0_hyp(Goal, UniqueSubgoalseq)),  % Add if not present
+    fail.  % Force backtracking to explore other possibilities
 
-add_qmpt0_hyp(Goal,Subgoalseq) :-
-    select(X,Subgoalseq,Restgoalseq),
-    clause(qmpt0_hyp(Goal,Alist),_),
-    select(Z,Alist,Rlist),
-    (X= -Z; Z= -X),
-    append(Restgoalseq,Rlist,Newlist),
-    list_to_set_alpha(Newlist,NewSubgoalseq),
-    add_qmpt0_hyp(Goal,NewSubgoalseq).
+add_qmpt0_hyp(Goal, Subgoalseq) :-
+    select(X, Subgoalseq, Restgoalseq),
+    clause(qmpt0_hyp(Goal, Alist), _),
+    select(Z, Alist, Rlist),
+    (X = -Z; Z = -X),  % Handling negation or difference
+    append(Restgoalseq, Rlist, Newlist),
+    list_to_set_alpha(Newlist, NewSubgoalseq),
+    add_qmpt0_hyp(Goal, NewSubgoalseq).
 
 /* similar to list_to_set/2 of SWI-Prolog, but equate and unify the terms
    which are alpha-equivalent */
