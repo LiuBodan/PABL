@@ -36,7 +36,12 @@ Details on the specifications are listed in the table below.
 </table>
 
 ## References
-For more information about ABL, please refer to: [Zhou, 2019](http://scis.scichina.com/en/2019/076101.pdf) and [Zhou and Huang, 2022](https://www.lamda.nju.edu.cn/publication/chap_ABL.pdf).
+For more information about ABL, please refer to: [ABLKit](https://ablkit.readthedocs.io/en/latest/index.html), [Zhou, 2019](http://scis.scichina.com/en/2019/076101.pdf) and [Zhou and Huang, 2022](https://www.lamda.nju.edu.cn/publication/chap_ABL.pdf).
 
 For more information about paraconsistent logic programming QMPT0, please refer to [Goto, 2018](https://da.lib.kobe-u.ac.jp/da/kernel/D1007206/D1007206.pdf) and [Coniglio and Marcelo, 2016](http://logica.dmi.unisa.it/sysmics/sysmics16/slides/Oliveira_SYSMICS2016.pdf).
 
+For the other compared methods, their codes can be found below:
+[DeepProlog](https://github.com/ML-KULeuven/deepproblog/tree/master/src/deepproblog/examples/MNIST),
+[LTN](https://github.com/logictensornetworks/logictensornetworks/tree/master/examples/mnist),
+[DeepStochLog](https://github.com/ML-KULeuven/deepstochlog/tree/main/examples/addition_simple),
+[NeurASP](https://github.com/azreasoners/NeurASP/tree/master/examples/mnistAdd).
