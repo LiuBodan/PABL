@@ -1,0 +1,412 @@
+2024/05/19 17:25:09 - abl - WARNING - The logic_forward function has 2 arguments, so the cache is disabled. 
+2024/05/19 17:25:09 - abl - INFO - Abductive Learning on the MNIST Addition example.
+2024/05/19 17:25:09 - abl - INFO - loop(train) [1/2] segment(train) [1/100] 
+2024/05/19 17:25:10 - abl - INFO - model loss: 2.24916
+2024/05/19 17:25:10 - abl - INFO - loop(train) [1/2] segment(train) [2/100] 
+2024/05/19 17:25:10 - abl - INFO - model loss: 2.16236
+2024/05/19 17:25:10 - abl - INFO - loop(train) [1/2] segment(train) [3/100] 
+2024/05/19 17:25:10 - abl - INFO - model loss: 2.06992
+2024/05/19 17:25:10 - abl - INFO - loop(train) [1/2] segment(train) [4/100] 
+2024/05/19 17:25:10 - abl - INFO - model loss: 2.06321
+2024/05/19 17:25:10 - abl - INFO - loop(train) [1/2] segment(train) [5/100] 
+2024/05/19 17:25:11 - abl - INFO - model loss: 2.04413
+2024/05/19 17:25:11 - abl - INFO - loop(train) [1/2] segment(train) [6/100] 
+2024/05/19 17:25:11 - abl - INFO - model loss: 2.02632
+2024/05/19 17:25:11 - abl - INFO - loop(train) [1/2] segment(train) [7/100] 
+2024/05/19 17:25:11 - abl - INFO - model loss: 2.01866
+2024/05/19 17:25:11 - abl - INFO - loop(train) [1/2] segment(train) [8/100] 
+2024/05/19 17:25:12 - abl - INFO - model loss: 2.01909
+2024/05/19 17:25:12 - abl - INFO - loop(train) [1/2] segment(train) [9/100] 
+2024/05/19 17:25:12 - abl - INFO - model loss: 1.98769
+2024/05/19 17:25:12 - abl - INFO - loop(train) [1/2] segment(train) [10/100] 
+2024/05/19 17:25:13 - abl - INFO - model loss: 1.98088
+2024/05/19 17:25:13 - abl - INFO - loop(train) [1/2] segment(train) [11/100] 
+2024/05/19 17:25:14 - abl - INFO - model loss: 1.94578
+2024/05/19 17:25:14 - abl - INFO - loop(train) [1/2] segment(train) [12/100] 
+2024/05/19 17:25:14 - abl - INFO - model loss: 1.85963
+2024/05/19 17:25:14 - abl - INFO - loop(train) [1/2] segment(train) [13/100] 
+2024/05/19 17:25:15 - abl - INFO - model loss: 1.84053
+2024/05/19 17:25:15 - abl - INFO - loop(train) [1/2] segment(train) [14/100] 
+2024/05/19 17:25:15 - abl - INFO - model loss: 1.81639
+2024/05/19 17:25:15 - abl - INFO - loop(train) [1/2] segment(train) [15/100] 
+2024/05/19 17:25:15 - abl - INFO - model loss: 1.76203
+2024/05/19 17:25:15 - abl - INFO - loop(train) [1/2] segment(train) [16/100] 
+2024/05/19 17:25:16 - abl - INFO - model loss: 1.70954
+2024/05/19 17:25:16 - abl - INFO - loop(train) [1/2] segment(train) [17/100] 
+2024/05/19 17:25:17 - abl - INFO - model loss: 1.72015
+2024/05/19 17:25:17 - abl - INFO - loop(train) [1/2] segment(train) [18/100] 
+2024/05/19 17:25:17 - abl - INFO - model loss: 1.67751
+2024/05/19 17:25:17 - abl - INFO - loop(train) [1/2] segment(train) [19/100] 
+2024/05/19 17:25:18 - abl - INFO - model loss: 1.61298
+2024/05/19 17:25:18 - abl - INFO - loop(train) [1/2] segment(train) [20/100] 
+2024/05/19 17:25:18 - abl - INFO - model loss: 1.43040
+2024/05/19 17:25:18 - abl - INFO - loop(train) [1/2] segment(train) [21/100] 
+2024/05/19 17:25:18 - abl - INFO - model loss: 1.32293
+2024/05/19 17:25:18 - abl - INFO - loop(train) [1/2] segment(train) [22/100] 
+2024/05/19 17:25:19 - abl - INFO - model loss: 1.23112
+2024/05/19 17:25:19 - abl - INFO - loop(train) [1/2] segment(train) [23/100] 
+2024/05/19 17:25:19 - abl - INFO - model loss: 1.18039
+2024/05/19 17:25:19 - abl - INFO - loop(train) [1/2] segment(train) [24/100] 
+2024/05/19 17:25:19 - abl - INFO - model loss: 1.18552
+2024/05/19 17:25:19 - abl - INFO - loop(train) [1/2] segment(train) [25/100] 
+2024/05/19 17:25:19 - abl - INFO - model loss: 1.12532
+2024/05/19 17:25:19 - abl - INFO - loop(train) [1/2] segment(train) [26/100] 
+2024/05/19 17:25:20 - abl - INFO - model loss: 1.10688
+2024/05/19 17:25:20 - abl - INFO - loop(train) [1/2] segment(train) [27/100] 
+2024/05/19 17:25:23 - abl - INFO - model loss: 1.10283
+2024/05/19 17:25:23 - abl - INFO - loop(train) [1/2] segment(train) [28/100] 
+2024/05/19 17:25:25 - abl - INFO - model loss: 1.07858
+2024/05/19 17:25:25 - abl - INFO - loop(train) [1/2] segment(train) [29/100] 
+2024/05/19 17:25:25 - abl - INFO - model loss: 1.07097
+2024/05/19 17:25:25 - abl - INFO - loop(train) [1/2] segment(train) [30/100] 
+2024/05/19 17:25:25 - abl - INFO - model loss: 1.06796
+2024/05/19 17:25:25 - abl - INFO - loop(train) [1/2] segment(train) [31/100] 
+2024/05/19 17:25:26 - abl - INFO - model loss: 1.09408
+2024/05/19 17:25:26 - abl - INFO - loop(train) [1/2] segment(train) [32/100] 
+2024/05/19 17:25:27 - abl - INFO - model loss: 1.05320
+2024/05/19 17:25:27 - abl - INFO - loop(train) [1/2] segment(train) [33/100] 
+2024/05/19 17:25:28 - abl - INFO - model loss: 1.01446
+2024/05/19 17:25:28 - abl - INFO - loop(train) [1/2] segment(train) [34/100] 
+2024/05/19 17:25:29 - abl - INFO - model loss: 1.02246
+2024/05/19 17:25:29 - abl - INFO - loop(train) [1/2] segment(train) [35/100] 
+2024/05/19 17:25:29 - abl - INFO - model loss: 1.01068
+2024/05/19 17:25:29 - abl - INFO - loop(train) [1/2] segment(train) [36/100] 
+2024/05/19 17:25:29 - abl - INFO - model loss: 1.00530
+2024/05/19 17:25:29 - abl - INFO - loop(train) [1/2] segment(train) [37/100] 
+2024/05/19 17:25:30 - abl - INFO - model loss: 1.02166
+2024/05/19 17:25:30 - abl - INFO - loop(train) [1/2] segment(train) [38/100] 
+2024/05/19 17:25:30 - abl - INFO - model loss: 1.01570
+2024/05/19 17:25:30 - abl - INFO - loop(train) [1/2] segment(train) [39/100] 
+2024/05/19 17:25:30 - abl - INFO - model loss: 1.04829
+2024/05/19 17:25:30 - abl - INFO - loop(train) [1/2] segment(train) [40/100] 
+2024/05/19 17:25:31 - abl - INFO - model loss: 1.00159
+2024/05/19 17:25:31 - abl - INFO - loop(train) [1/2] segment(train) [41/100] 
+2024/05/19 17:25:31 - abl - INFO - model loss: 1.00684
+2024/05/19 17:25:31 - abl - INFO - loop(train) [1/2] segment(train) [42/100] 
+2024/05/19 17:25:31 - abl - INFO - model loss: 0.98481
+2024/05/19 17:25:31 - abl - INFO - loop(train) [1/2] segment(train) [43/100] 
+2024/05/19 17:25:32 - abl - INFO - model loss: 0.96975
+2024/05/19 17:25:32 - abl - INFO - loop(train) [1/2] segment(train) [44/100] 
+2024/05/19 17:25:32 - abl - INFO - model loss: 1.01244
+2024/05/19 17:25:32 - abl - INFO - loop(train) [1/2] segment(train) [45/100] 
+2024/05/19 17:25:32 - abl - INFO - model loss: 0.98655
+2024/05/19 17:25:32 - abl - INFO - loop(train) [1/2] segment(train) [46/100] 
+2024/05/19 17:25:33 - abl - INFO - model loss: 1.00718
+2024/05/19 17:25:33 - abl - INFO - loop(train) [1/2] segment(train) [47/100] 
+2024/05/19 17:25:33 - abl - INFO - model loss: 0.99504
+2024/05/19 17:25:33 - abl - INFO - loop(train) [1/2] segment(train) [48/100] 
+2024/05/19 17:25:34 - abl - INFO - model loss: 0.99141
+2024/05/19 17:25:34 - abl - INFO - loop(train) [1/2] segment(train) [49/100] 
+2024/05/19 17:25:34 - abl - INFO - model loss: 0.97380
+2024/05/19 17:25:34 - abl - INFO - loop(train) [1/2] segment(train) [50/100] 
+2024/05/19 17:25:35 - abl - INFO - model loss: 0.95581
+2024/05/19 17:25:35 - abl - INFO - loop(train) [1/2] segment(train) [51/100] 
+2024/05/19 17:25:35 - abl - INFO - model loss: 0.96104
+2024/05/19 17:25:35 - abl - INFO - loop(train) [1/2] segment(train) [52/100] 
+2024/05/19 17:25:36 - abl - INFO - model loss: 0.96755
+2024/05/19 17:25:36 - abl - INFO - loop(train) [1/2] segment(train) [53/100] 
+2024/05/19 17:25:36 - abl - INFO - model loss: 0.99254
+2024/05/19 17:25:36 - abl - INFO - loop(train) [1/2] segment(train) [54/100] 
+2024/05/19 17:25:37 - abl - INFO - model loss: 0.97505
+2024/05/19 17:25:37 - abl - INFO - loop(train) [1/2] segment(train) [55/100] 
+2024/05/19 17:25:37 - abl - INFO - model loss: 0.95365
+2024/05/19 17:25:37 - abl - INFO - loop(train) [1/2] segment(train) [56/100] 
+2024/05/19 17:25:38 - abl - INFO - model loss: 0.94545
+2024/05/19 17:25:38 - abl - INFO - loop(train) [1/2] segment(train) [57/100] 
+2024/05/19 17:25:38 - abl - INFO - model loss: 0.97469
+2024/05/19 17:25:38 - abl - INFO - loop(train) [1/2] segment(train) [58/100] 
+2024/05/19 17:25:38 - abl - INFO - model loss: 0.97295
+2024/05/19 17:25:38 - abl - INFO - loop(train) [1/2] segment(train) [59/100] 
+2024/05/19 17:25:39 - abl - INFO - model loss: 0.95125
+2024/05/19 17:25:39 - abl - INFO - loop(train) [1/2] segment(train) [60/100] 
+2024/05/19 17:25:39 - abl - INFO - model loss: 0.95908
+2024/05/19 17:25:39 - abl - INFO - loop(train) [1/2] segment(train) [61/100] 
+2024/05/19 17:25:39 - abl - INFO - model loss: 0.95541
+2024/05/19 17:25:39 - abl - INFO - loop(train) [1/2] segment(train) [62/100] 
+2024/05/19 17:25:40 - abl - INFO - model loss: 0.95760
+2024/05/19 17:25:40 - abl - INFO - loop(train) [1/2] segment(train) [63/100] 
+2024/05/19 17:25:40 - abl - INFO - model loss: 0.96088
+2024/05/19 17:25:40 - abl - INFO - loop(train) [1/2] segment(train) [64/100] 
+2024/05/19 17:25:41 - abl - INFO - model loss: 0.96377
+2024/05/19 17:25:41 - abl - INFO - loop(train) [1/2] segment(train) [65/100] 
+2024/05/19 17:25:41 - abl - INFO - model loss: 0.92953
+2024/05/19 17:25:41 - abl - INFO - loop(train) [1/2] segment(train) [66/100] 
+2024/05/19 17:25:41 - abl - INFO - model loss: 0.95209
+2024/05/19 17:25:41 - abl - INFO - loop(train) [1/2] segment(train) [67/100] 
+2024/05/19 17:25:42 - abl - INFO - model loss: 0.94983
+2024/05/19 17:25:42 - abl - INFO - loop(train) [1/2] segment(train) [68/100] 
+2024/05/19 17:25:42 - abl - INFO - model loss: 0.93569
+2024/05/19 17:25:42 - abl - INFO - loop(train) [1/2] segment(train) [69/100] 
+2024/05/19 17:25:43 - abl - INFO - model loss: 0.94684
+2024/05/19 17:25:43 - abl - INFO - loop(train) [1/2] segment(train) [70/100] 
+2024/05/19 17:25:43 - abl - INFO - model loss: 0.95666
+2024/05/19 17:25:43 - abl - INFO - loop(train) [1/2] segment(train) [71/100] 
+2024/05/19 17:25:44 - abl - INFO - model loss: 0.94003
+2024/05/19 17:25:44 - abl - INFO - loop(train) [1/2] segment(train) [72/100] 
+2024/05/19 17:25:45 - abl - INFO - model loss: 0.95331
+2024/05/19 17:25:45 - abl - INFO - loop(train) [1/2] segment(train) [73/100] 
+2024/05/19 17:25:45 - abl - INFO - model loss: 0.92831
+2024/05/19 17:25:45 - abl - INFO - loop(train) [1/2] segment(train) [74/100] 
+2024/05/19 17:25:45 - abl - INFO - model loss: 0.95702
+2024/05/19 17:25:45 - abl - INFO - loop(train) [1/2] segment(train) [75/100] 
+2024/05/19 17:25:46 - abl - INFO - model loss: 0.93297
+2024/05/19 17:25:46 - abl - INFO - loop(train) [1/2] segment(train) [76/100] 
+2024/05/19 17:25:47 - abl - INFO - model loss: 0.94157
+2024/05/19 17:25:47 - abl - INFO - loop(train) [1/2] segment(train) [77/100] 
+2024/05/19 17:25:47 - abl - INFO - model loss: 0.95236
+2024/05/19 17:25:47 - abl - INFO - loop(train) [1/2] segment(train) [78/100] 
+2024/05/19 17:25:48 - abl - INFO - model loss: 0.94312
+2024/05/19 17:25:48 - abl - INFO - loop(train) [1/2] segment(train) [79/100] 
+2024/05/19 17:25:48 - abl - INFO - model loss: 0.93702
+2024/05/19 17:25:48 - abl - INFO - loop(train) [1/2] segment(train) [80/100] 
+2024/05/19 17:25:49 - abl - INFO - model loss: 0.94085
+2024/05/19 17:25:49 - abl - INFO - loop(train) [1/2] segment(train) [81/100] 
+2024/05/19 17:25:49 - abl - INFO - model loss: 0.95511
+2024/05/19 17:25:49 - abl - INFO - loop(train) [1/2] segment(train) [82/100] 
+2024/05/19 17:25:49 - abl - INFO - model loss: 0.93642
+2024/05/19 17:25:49 - abl - INFO - loop(train) [1/2] segment(train) [83/100] 
+2024/05/19 17:25:50 - abl - INFO - model loss: 0.95914
+2024/05/19 17:25:50 - abl - INFO - loop(train) [1/2] segment(train) [84/100] 
+2024/05/19 17:25:51 - abl - INFO - model loss: 0.92927
+2024/05/19 17:25:51 - abl - INFO - loop(train) [1/2] segment(train) [85/100] 
+2024/05/19 17:25:51 - abl - INFO - model loss: 0.93047
+2024/05/19 17:25:51 - abl - INFO - loop(train) [1/2] segment(train) [86/100] 
+2024/05/19 17:25:52 - abl - INFO - model loss: 0.94347
+2024/05/19 17:25:52 - abl - INFO - loop(train) [1/2] segment(train) [87/100] 
+2024/05/19 17:25:52 - abl - INFO - model loss: 0.93585
+2024/05/19 17:25:52 - abl - INFO - loop(train) [1/2] segment(train) [88/100] 
+2024/05/19 17:25:53 - abl - INFO - model loss: 0.93564
+2024/05/19 17:25:53 - abl - INFO - loop(train) [1/2] segment(train) [89/100] 
+2024/05/19 17:25:53 - abl - INFO - model loss: 0.93802
+2024/05/19 17:25:53 - abl - INFO - loop(train) [1/2] segment(train) [90/100] 
+2024/05/19 17:25:54 - abl - INFO - model loss: 0.93390
+2024/05/19 17:25:54 - abl - INFO - loop(train) [1/2] segment(train) [91/100] 
+2024/05/19 17:25:55 - abl - INFO - model loss: 0.94593
+2024/05/19 17:25:55 - abl - INFO - loop(train) [1/2] segment(train) [92/100] 
+2024/05/19 17:25:56 - abl - INFO - model loss: 0.94319
+2024/05/19 17:25:56 - abl - INFO - loop(train) [1/2] segment(train) [93/100] 
+2024/05/19 17:25:57 - abl - INFO - model loss: 0.96304
+2024/05/19 17:25:57 - abl - INFO - loop(train) [1/2] segment(train) [94/100] 
+2024/05/19 17:25:57 - abl - INFO - model loss: 0.95782
+2024/05/19 17:25:57 - abl - INFO - loop(train) [1/2] segment(train) [95/100] 
+2024/05/19 17:25:58 - abl - INFO - model loss: 0.92847
+2024/05/19 17:25:58 - abl - INFO - loop(train) [1/2] segment(train) [96/100] 
+2024/05/19 17:25:59 - abl - INFO - model loss: 0.91786
+2024/05/19 17:25:59 - abl - INFO - loop(train) [1/2] segment(train) [97/100] 
+2024/05/19 17:26:00 - abl - INFO - model loss: 0.93287
+2024/05/19 17:26:00 - abl - INFO - loop(train) [1/2] segment(train) [98/100] 
+2024/05/19 17:26:00 - abl - INFO - model loss: 0.93596
+2024/05/19 17:26:00 - abl - INFO - loop(train) [1/2] segment(train) [99/100] 
+2024/05/19 17:26:01 - abl - INFO - model loss: 0.92826
+2024/05/19 17:26:01 - abl - INFO - loop(train) [1/2] segment(train) [100/100] 
+2024/05/19 17:26:01 - abl - INFO - model loss: 0.95708
+2024/05/19 17:26:01 - abl - INFO - Eval start: loop(val) [1]
+2024/05/19 17:27:21 - abl - INFO - Evaluation ended, mnist_add/character_accuracy: 0.982 mnist_add/reasoning_accuracy: 0.965 
+2024/05/19 17:27:21 - abl - INFO - Saving model: loop(save) [1]
+2024/05/19 17:27:21 - abl - INFO - Checkpoints will be saved to results\20240519_17_25_09\weights\model_checkpoint_loop_1.pth
+2024/05/19 17:27:21 - abl - INFO - loop(train) [2/2] segment(train) [1/100] 
+2024/05/19 17:27:22 - abl - INFO - model loss: 0.92832
+2024/05/19 17:27:22 - abl - INFO - loop(train) [2/2] segment(train) [2/100] 
+2024/05/19 17:27:23 - abl - INFO - model loss: 0.92058
+2024/05/19 17:27:23 - abl - INFO - loop(train) [2/2] segment(train) [3/100] 
+2024/05/19 17:27:25 - abl - INFO - model loss: 0.95575
+2024/05/19 17:27:25 - abl - INFO - loop(train) [2/2] segment(train) [4/100] 
+2024/05/19 17:27:26 - abl - INFO - model loss: 0.94744
+2024/05/19 17:27:26 - abl - INFO - loop(train) [2/2] segment(train) [5/100] 
+2024/05/19 17:27:27 - abl - INFO - model loss: 0.91266
+2024/05/19 17:27:27 - abl - INFO - loop(train) [2/2] segment(train) [6/100] 
+2024/05/19 17:27:28 - abl - INFO - model loss: 0.91500
+2024/05/19 17:27:28 - abl - INFO - loop(train) [2/2] segment(train) [7/100] 
+2024/05/19 17:27:29 - abl - INFO - model loss: 0.91058
+2024/05/19 17:27:29 - abl - INFO - loop(train) [2/2] segment(train) [8/100] 
+2024/05/19 17:27:30 - abl - INFO - model loss: 0.94462
+2024/05/19 17:27:30 - abl - INFO - loop(train) [2/2] segment(train) [9/100] 
+2024/05/19 17:27:32 - abl - INFO - model loss: 0.94518
+2024/05/19 17:27:32 - abl - INFO - loop(train) [2/2] segment(train) [10/100] 
+2024/05/19 17:27:33 - abl - INFO - model loss: 0.92608
+2024/05/19 17:27:33 - abl - INFO - loop(train) [2/2] segment(train) [11/100] 
+2024/05/19 17:27:34 - abl - INFO - model loss: 0.91670
+2024/05/19 17:27:34 - abl - INFO - loop(train) [2/2] segment(train) [12/100] 
+2024/05/19 17:27:36 - abl - INFO - model loss: 0.92449
+2024/05/19 17:27:36 - abl - INFO - loop(train) [2/2] segment(train) [13/100] 
+2024/05/19 17:27:37 - abl - INFO - model loss: 0.92153
+2024/05/19 17:27:37 - abl - INFO - loop(train) [2/2] segment(train) [14/100] 
+2024/05/19 17:27:38 - abl - INFO - model loss: 0.91831
+2024/05/19 17:27:38 - abl - INFO - loop(train) [2/2] segment(train) [15/100] 
+2024/05/19 17:27:39 - abl - INFO - model loss: 0.93139
+2024/05/19 17:27:39 - abl - INFO - loop(train) [2/2] segment(train) [16/100] 
+2024/05/19 17:27:40 - abl - INFO - model loss: 0.91177
+2024/05/19 17:27:40 - abl - INFO - loop(train) [2/2] segment(train) [17/100] 
+2024/05/19 17:27:41 - abl - INFO - model loss: 0.92568
+2024/05/19 17:27:41 - abl - INFO - loop(train) [2/2] segment(train) [18/100] 
+2024/05/19 17:27:42 - abl - INFO - model loss: 0.93191
+2024/05/19 17:27:42 - abl - INFO - loop(train) [2/2] segment(train) [19/100] 
+2024/05/19 17:27:43 - abl - INFO - model loss: 0.91702
+2024/05/19 17:27:43 - abl - INFO - loop(train) [2/2] segment(train) [20/100] 
+2024/05/19 17:27:45 - abl - INFO - model loss: 0.92244
+2024/05/19 17:27:45 - abl - INFO - loop(train) [2/2] segment(train) [21/100] 
+2024/05/19 17:27:46 - abl - INFO - model loss: 0.91296
+2024/05/19 17:27:46 - abl - INFO - loop(train) [2/2] segment(train) [22/100] 
+2024/05/19 17:27:47 - abl - INFO - model loss: 0.91908
+2024/05/19 17:27:47 - abl - INFO - loop(train) [2/2] segment(train) [23/100] 
+2024/05/19 17:27:48 - abl - INFO - model loss: 0.90984
+2024/05/19 17:27:48 - abl - INFO - loop(train) [2/2] segment(train) [24/100] 
+2024/05/19 17:27:49 - abl - INFO - model loss: 0.91245
+2024/05/19 17:27:49 - abl - INFO - loop(train) [2/2] segment(train) [25/100] 
+2024/05/19 17:27:50 - abl - INFO - model loss: 0.91584
+2024/05/19 17:27:50 - abl - INFO - loop(train) [2/2] segment(train) [26/100] 
+2024/05/19 17:27:52 - abl - INFO - model loss: 0.91273
+2024/05/19 17:27:52 - abl - INFO - loop(train) [2/2] segment(train) [27/100] 
+2024/05/19 17:27:53 - abl - INFO - model loss: 0.93153
+2024/05/19 17:27:53 - abl - INFO - loop(train) [2/2] segment(train) [28/100] 
+2024/05/19 17:27:54 - abl - INFO - model loss: 0.90621
+2024/05/19 17:27:54 - abl - INFO - loop(train) [2/2] segment(train) [29/100] 
+2024/05/19 17:27:56 - abl - INFO - model loss: 0.90968
+2024/05/19 17:27:56 - abl - INFO - loop(train) [2/2] segment(train) [30/100] 
+2024/05/19 17:27:57 - abl - INFO - model loss: 0.91697
+2024/05/19 17:27:57 - abl - INFO - loop(train) [2/2] segment(train) [31/100] 
+2024/05/19 17:27:58 - abl - INFO - model loss: 0.92138
+2024/05/19 17:27:58 - abl - INFO - loop(train) [2/2] segment(train) [32/100] 
+2024/05/19 17:27:59 - abl - INFO - model loss: 0.92217
+2024/05/19 17:27:59 - abl - INFO - loop(train) [2/2] segment(train) [33/100] 
+2024/05/19 17:28:01 - abl - INFO - model loss: 0.91490
+2024/05/19 17:28:01 - abl - INFO - loop(train) [2/2] segment(train) [34/100] 
+2024/05/19 17:28:02 - abl - INFO - model loss: 0.90566
+2024/05/19 17:28:02 - abl - INFO - loop(train) [2/2] segment(train) [35/100] 
+2024/05/19 17:28:03 - abl - INFO - model loss: 0.90629
+2024/05/19 17:28:03 - abl - INFO - loop(train) [2/2] segment(train) [36/100] 
+2024/05/19 17:28:05 - abl - INFO - model loss: 0.90369
+2024/05/19 17:28:05 - abl - INFO - loop(train) [2/2] segment(train) [37/100] 
+2024/05/19 17:28:06 - abl - INFO - model loss: 0.90822
+2024/05/19 17:28:06 - abl - INFO - loop(train) [2/2] segment(train) [38/100] 
+2024/05/19 17:28:07 - abl - INFO - model loss: 0.91091
+2024/05/19 17:28:07 - abl - INFO - loop(train) [2/2] segment(train) [39/100] 
+2024/05/19 17:28:09 - abl - INFO - model loss: 0.92572
+2024/05/19 17:28:09 - abl - INFO - loop(train) [2/2] segment(train) [40/100] 
+2024/05/19 17:28:10 - abl - INFO - model loss: 0.91229
+2024/05/19 17:28:10 - abl - INFO - loop(train) [2/2] segment(train) [41/100] 
+2024/05/19 17:28:11 - abl - INFO - model loss: 0.91368
+2024/05/19 17:28:11 - abl - INFO - loop(train) [2/2] segment(train) [42/100] 
+2024/05/19 17:28:13 - abl - INFO - model loss: 0.91145
+2024/05/19 17:28:13 - abl - INFO - loop(train) [2/2] segment(train) [43/100] 
+2024/05/19 17:28:15 - abl - INFO - model loss: 0.91107
+2024/05/19 17:28:15 - abl - INFO - loop(train) [2/2] segment(train) [44/100] 
+2024/05/19 17:28:16 - abl - INFO - model loss: 0.92807
+2024/05/19 17:28:16 - abl - INFO - loop(train) [2/2] segment(train) [45/100] 
+2024/05/19 17:28:18 - abl - INFO - model loss: 0.90524
+2024/05/19 17:28:18 - abl - INFO - loop(train) [2/2] segment(train) [46/100] 
+2024/05/19 17:28:19 - abl - INFO - model loss: 0.91724
+2024/05/19 17:28:19 - abl - INFO - loop(train) [2/2] segment(train) [47/100] 
+2024/05/19 17:28:21 - abl - INFO - model loss: 0.90694
+2024/05/19 17:28:21 - abl - INFO - loop(train) [2/2] segment(train) [48/100] 
+2024/05/19 17:28:22 - abl - INFO - model loss: 0.91436
+2024/05/19 17:28:22 - abl - INFO - loop(train) [2/2] segment(train) [49/100] 
+2024/05/19 17:28:23 - abl - INFO - model loss: 0.90582
+2024/05/19 17:28:23 - abl - INFO - loop(train) [2/2] segment(train) [50/100] 
+2024/05/19 17:28:25 - abl - INFO - model loss: 0.89270
+2024/05/19 17:28:25 - abl - INFO - loop(train) [2/2] segment(train) [51/100] 
+2024/05/19 17:28:26 - abl - INFO - model loss: 0.90763
+2024/05/19 17:28:26 - abl - INFO - loop(train) [2/2] segment(train) [52/100] 
+2024/05/19 17:28:27 - abl - INFO - model loss: 0.90808
+2024/05/19 17:28:27 - abl - INFO - loop(train) [2/2] segment(train) [53/100] 
+2024/05/19 17:28:29 - abl - INFO - model loss: 0.90535
+2024/05/19 17:28:29 - abl - INFO - loop(train) [2/2] segment(train) [54/100] 
+2024/05/19 17:28:30 - abl - INFO - model loss: 0.91197
+2024/05/19 17:28:30 - abl - INFO - loop(train) [2/2] segment(train) [55/100] 
+2024/05/19 17:28:32 - abl - INFO - model loss: 0.89721
+2024/05/19 17:28:32 - abl - INFO - loop(train) [2/2] segment(train) [56/100] 
+2024/05/19 17:28:34 - abl - INFO - model loss: 0.89729
+2024/05/19 17:28:34 - abl - INFO - loop(train) [2/2] segment(train) [57/100] 
+2024/05/19 17:28:35 - abl - INFO - model loss: 0.90423
+2024/05/19 17:28:35 - abl - INFO - loop(train) [2/2] segment(train) [58/100] 
+2024/05/19 17:28:37 - abl - INFO - model loss: 0.89732
+2024/05/19 17:28:37 - abl - INFO - loop(train) [2/2] segment(train) [59/100] 
+2024/05/19 17:28:38 - abl - INFO - model loss: 0.88897
+2024/05/19 17:28:38 - abl - INFO - loop(train) [2/2] segment(train) [60/100] 
+2024/05/19 17:28:40 - abl - INFO - model loss: 0.90343
+2024/05/19 17:28:40 - abl - INFO - loop(train) [2/2] segment(train) [61/100] 
+2024/05/19 17:28:41 - abl - INFO - model loss: 0.90580
+2024/05/19 17:28:41 - abl - INFO - loop(train) [2/2] segment(train) [62/100] 
+2024/05/19 17:28:42 - abl - INFO - model loss: 0.89740
+2024/05/19 17:28:42 - abl - INFO - loop(train) [2/2] segment(train) [63/100] 
+2024/05/19 17:28:44 - abl - INFO - model loss: 0.90014
+2024/05/19 17:28:44 - abl - INFO - loop(train) [2/2] segment(train) [64/100] 
+2024/05/19 17:28:45 - abl - INFO - model loss: 0.90772
+2024/05/19 17:28:45 - abl - INFO - loop(train) [2/2] segment(train) [65/100] 
+2024/05/19 17:28:47 - abl - INFO - model loss: 0.88453
+2024/05/19 17:28:47 - abl - INFO - loop(train) [2/2] segment(train) [66/100] 
+2024/05/19 17:28:48 - abl - INFO - model loss: 0.90451
+2024/05/19 17:28:48 - abl - INFO - loop(train) [2/2] segment(train) [67/100] 
+2024/05/19 17:28:50 - abl - INFO - model loss: 0.90306
+2024/05/19 17:28:50 - abl - INFO - loop(train) [2/2] segment(train) [68/100] 
+2024/05/19 17:28:53 - abl - INFO - model loss: 0.89261
+2024/05/19 17:28:53 - abl - INFO - loop(train) [2/2] segment(train) [69/100] 
+2024/05/19 17:28:55 - abl - INFO - model loss: 0.90097
+2024/05/19 17:28:55 - abl - INFO - loop(train) [2/2] segment(train) [70/100] 
+2024/05/19 17:28:56 - abl - INFO - model loss: 0.90126
+2024/05/19 17:28:56 - abl - INFO - loop(train) [2/2] segment(train) [71/100] 
+2024/05/19 17:28:58 - abl - INFO - model loss: 0.89816
+2024/05/19 17:28:58 - abl - INFO - loop(train) [2/2] segment(train) [72/100] 
+2024/05/19 17:29:00 - abl - INFO - model loss: 0.90681
+2024/05/19 17:29:00 - abl - INFO - loop(train) [2/2] segment(train) [73/100] 
+2024/05/19 17:29:02 - abl - INFO - model loss: 0.89094
+2024/05/19 17:29:02 - abl - INFO - loop(train) [2/2] segment(train) [74/100] 
+2024/05/19 17:29:04 - abl - INFO - model loss: 0.89910
+2024/05/19 17:29:04 - abl - INFO - loop(train) [2/2] segment(train) [75/100] 
+2024/05/19 17:29:05 - abl - INFO - model loss: 0.88785
+2024/05/19 17:29:05 - abl - INFO - loop(train) [2/2] segment(train) [76/100] 
+2024/05/19 17:29:07 - abl - INFO - model loss: 0.89902
+2024/05/19 17:29:07 - abl - INFO - loop(train) [2/2] segment(train) [77/100] 
+2024/05/19 17:29:08 - abl - INFO - model loss: 0.90058
+2024/05/19 17:29:08 - abl - INFO - loop(train) [2/2] segment(train) [78/100] 
+2024/05/19 17:29:09 - abl - INFO - model loss: 0.88702
+2024/05/19 17:29:09 - abl - INFO - loop(train) [2/2] segment(train) [79/100] 
+2024/05/19 17:29:11 - abl - INFO - model loss: 0.89991
+2024/05/19 17:29:11 - abl - INFO - loop(train) [2/2] segment(train) [80/100] 
+2024/05/19 17:29:12 - abl - INFO - model loss: 0.89873
+2024/05/19 17:29:12 - abl - INFO - loop(train) [2/2] segment(train) [81/100] 
+2024/05/19 17:29:13 - abl - INFO - model loss: 0.90597
+2024/05/19 17:29:13 - abl - INFO - loop(train) [2/2] segment(train) [82/100] 
+2024/05/19 17:29:15 - abl - INFO - model loss: 0.89686
+2024/05/19 17:29:15 - abl - INFO - loop(train) [2/2] segment(train) [83/100] 
+2024/05/19 17:29:16 - abl - INFO - model loss: 0.90781
+2024/05/19 17:29:16 - abl - INFO - loop(train) [2/2] segment(train) [84/100] 
+2024/05/19 17:29:18 - abl - INFO - model loss: 0.88865
+2024/05/19 17:29:18 - abl - INFO - loop(train) [2/2] segment(train) [85/100] 
+2024/05/19 17:29:19 - abl - INFO - model loss: 0.89064
+2024/05/19 17:29:19 - abl - INFO - loop(train) [2/2] segment(train) [86/100] 
+2024/05/19 17:29:21 - abl - INFO - model loss: 0.89885
+2024/05/19 17:29:21 - abl - INFO - loop(train) [2/2] segment(train) [87/100] 
+2024/05/19 17:29:22 - abl - INFO - model loss: 0.89489
+2024/05/19 17:29:22 - abl - INFO - loop(train) [2/2] segment(train) [88/100] 
+2024/05/19 17:29:23 - abl - INFO - model loss: 0.89645
+2024/05/19 17:29:23 - abl - INFO - loop(train) [2/2] segment(train) [89/100] 
+2024/05/19 17:29:25 - abl - INFO - model loss: 0.89933
+2024/05/19 17:29:25 - abl - INFO - loop(train) [2/2] segment(train) [90/100] 
+2024/05/19 17:29:26 - abl - INFO - model loss: 0.89629
+2024/05/19 17:29:26 - abl - INFO - loop(train) [2/2] segment(train) [91/100] 
+2024/05/19 17:29:28 - abl - INFO - model loss: 0.89915
+2024/05/19 17:29:28 - abl - INFO - loop(train) [2/2] segment(train) [92/100] 
+2024/05/19 17:29:29 - abl - INFO - model loss: 0.90005
+2024/05/19 17:29:29 - abl - INFO - loop(train) [2/2] segment(train) [93/100] 
+2024/05/19 17:29:31 - abl - INFO - model loss: 0.91674
+2024/05/19 17:29:31 - abl - INFO - loop(train) [2/2] segment(train) [94/100] 
+2024/05/19 17:29:33 - abl - INFO - model loss: 0.90492
+2024/05/19 17:29:33 - abl - INFO - loop(train) [2/2] segment(train) [95/100] 
+2024/05/19 17:29:35 - abl - INFO - model loss: 0.89565
+2024/05/19 17:29:35 - abl - INFO - loop(train) [2/2] segment(train) [96/100] 
+2024/05/19 17:29:38 - abl - INFO - model loss: 0.88638
+2024/05/19 17:29:38 - abl - INFO - loop(train) [2/2] segment(train) [97/100] 
+2024/05/19 17:29:40 - abl - INFO - model loss: 0.89564
+2024/05/19 17:29:40 - abl - INFO - loop(train) [2/2] segment(train) [98/100] 
+2024/05/19 17:29:42 - abl - INFO - model loss: 0.89803
+2024/05/19 17:29:42 - abl - INFO - loop(train) [2/2] segment(train) [99/100] 
+2024/05/19 17:29:44 - abl - INFO - model loss: 0.89012
+2024/05/19 17:29:44 - abl - INFO - loop(train) [2/2] segment(train) [100/100] 
+2024/05/19 17:29:46 - abl - INFO - model loss: 0.91470
+2024/05/19 17:29:46 - abl - INFO - Eval start: loop(val) [2]
+2024/05/19 17:33:31 - abl - INFO - Evaluation ended, mnist_add/character_accuracy: 0.990 mnist_add/reasoning_accuracy: 0.980 
+2024/05/19 17:33:31 - abl - INFO - Saving model: loop(save) [2]
+2024/05/19 17:33:31 - abl - INFO - Checkpoints will be saved to results\20240519_17_25_09\weights\model_checkpoint_loop_2.pth
+2024/05/19 17:33:31 - abl - INFO - Test start:
+2024/05/19 17:34:40 - abl - INFO - Evaluation ended, mnist_add/character_accuracy: 0.988 mnist_add/reasoning_accuracy: 0.977 
